@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1394596185369
+Build-Jdk: 1.7.0_25
+Built-By: danh.ho
+Bundle-Activator: com.demo.improve.Activator
+Bundle-Description: Maven Multimodule project for cq5-improve.
+Bundle-ManifestVersion: 2
+Bundle-Name: cq5-improve-bundle
+Bundle-SymbolicName: my-group-id.cq5-improve-bundle
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: *;scope=compile|runtime
+Embed-Transitive: true
+Export-Package: com.demo.improve.presenter;uses:="javax.jcr,org.apache.s
+ ling.api,org.apache.sling.api.resource";version="1.0.0.SNAPSHOT"
+Import-Package: com.demo.improve,javax.jcr;version="[2.0,3)",org.apache.
+ sling.api;version="[2.2,3)",org.apache.sling.api.resource;version="[2.1
+ ,3)"
+Tool: Bnd-1.50.0

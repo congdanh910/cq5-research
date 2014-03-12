@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>cq5-improve Package</comment>
+<entry key="createdBy">danh.ho</entry>
+<entry key="name">cq5-improve-content</entry>
+<entry key="created">2014-03-12T14:42:38.190+0700</entry>
+<entry key="groupId">my-group-id</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">Improve</entry>
+<entry key="description">Maven Multimodule project for cq5-improve.</entry>
+<entry key="artifactId">cq5-improve-content</entry>
+<entry key="path">/etc/packages/Improve/cq5-improve-content.zip</entry>
+</properties>

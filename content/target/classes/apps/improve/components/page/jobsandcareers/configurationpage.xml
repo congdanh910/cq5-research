@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Configuration Page"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tabGeneral
+                jcr:primaryType="cq:Panel"
+                title="Configuration Page">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <configPage
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Configuration Page"
+                        labelStyle="font-weight:bold;"
+                        name="./configurationpage"
+                        rootPath="/content"
+                        xtype="pathfield"/>
+                </items>
+            </tabGeneral>
+        </items>
+    </items>
+</jcr:root>

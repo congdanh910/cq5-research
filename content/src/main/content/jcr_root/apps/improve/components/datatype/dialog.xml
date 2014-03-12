@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+	jcr:primaryType="cq:Dialog" title="" xtype="dialog">
+
+	<items jcr:primaryType="cq:Widget" xtype="tabpanel">
+		<items jcr:primaryType="cq:WidgetCollection">
+			<datatype jcr:primaryType="cq:Panel" title="Data Type">
+				<items jcr:primaryType="cq:WidgetCollection">
+					<selectFromFileJsp 
+						jcr:primaryType="cq:Widget"
+						value="default"
+                        defaultValue="default"
+                        fieldLabel="SelectorFileJsp"
+                        labelStyle="font-weight:bold;"
+                        fieldDescription="Selector get data from jsp page"
+                        name="./selectFromFileJsp"
+                        options="/apps/improve/components/datatype/data.select.json"
+                        optionsRoot="list"
+                        optionsTextField="name"
+                        optionsValueField="name"
+                        type="select"
+                        xtype="selection"
+					/>
+					<openNewDialog 
+						jcr:primaryType="cq:Widget"
+						fieldLabel="Open New Dialog"
+						fieldDescription="This widget will -open new dialog"
+						name="./openNewDialog"
+						xtype="openNewDialog"
+					/>
+					
+				</items>
+			</datatype>
+		</items>
+	</items>
+
+</jcr:root>

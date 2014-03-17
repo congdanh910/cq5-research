@@ -3,6 +3,7 @@
 	<name>cq5-improve-content</name>
 	<comment></comment>
 	<projects>
+		<project>cq5-improve-bundle</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

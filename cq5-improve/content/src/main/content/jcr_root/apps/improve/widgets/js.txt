@@ -1,3 +1,4 @@
 #base=js
 
 openNewDialog.js
+box.js

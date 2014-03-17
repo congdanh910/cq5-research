@@ -28,6 +28,13 @@
 						name="./openNewDialog"
 						xtype="openNewDialog"
 					/>
+					<tags
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Tags"
+                        labelStyle="font-weight:bold;"
+                        name="./cq:tags"
+                        xtype="tags">
+                    </tags>
 					
 				</items>
 			</datatype>

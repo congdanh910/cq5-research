@@ -44,9 +44,24 @@
 					onclick="doOpenDlg('/apps/improve/components/page/jobsandcareers/configurationpage.infinity.json', '<%=currentNode.getPath() %>');" />
 			</c:if>		
 		</div>
-		<div>
-			<cq:include path="datatype" resourceType="improve/components/datatype" />
-		</div>
+		<div class="container">
+        <div class="row-fluid">
+	        <div class="span8">
+	           <cq:include path="container" resourceType="improve/components/container" />
+	        </div>
+	        <div class="span4">
+	            <div class="box box-complementary">
+	              <h2 class="heading-heavy">Job Opportunities</h2>
+	              <p><a href="#" class="btn btn-inverse btn-large">View all Jobs and Apply</a></p>
+	            </div>
+	            <div class="box box-primary">
+	              <h2 class="heading-heavy">Travel Counselor</h2>
+	              <p>Cum soluta nobis est eligendi optio cumque nihil impedit quo </p>
+	              <p><a href="#" class="btn btn-inverse btn-large">Discover</a></p>
+	            </div>
+	        </div>
+        </div>
+      </div>
 	</div>
 </body>
 </html>
